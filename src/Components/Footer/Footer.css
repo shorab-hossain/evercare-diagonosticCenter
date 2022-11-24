@@ -1,0 +1,108 @@
+.main-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-img {
+  width: 235px;
+  padding: 15px 0px;
+}
+.footer-content {
+  font-size: 16px;
+}
+.contact-footer {
+  padding: 15px 0px;
+}
+.small-content p {
+  line-height: 25px;
+}
+.footer-secondHeading {
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+.link-footer p a {
+  color: #fff;
+}
+.link-footer p {
+  line-height: 24px;
+}
+
+/* btn-design */
+.btn-footer {
+  padding: 11px 25px !important;
+  margin-top: 30px;
+  border-radius: 4px;
+  background-color: #f4511e !important;
+  border: none;
+  color: #ffffff !important;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.btn-footer span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn-footer:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.btn-footer a {
+  color: #fff !important;
+}
+/* end-button design */
+.btn-design {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 400;
+}
+.table-design {
+  margin-bottom: 18px;
+}
+.table-design tr td {
+  border: 1px solid white;
+  color: white;
+  padding: 10px 6px;
+}
+.payment-method img {
+  margin-right: 17px;
+  width: 47px;
+  height: 35px;
+}
+.last-content {
+  background-color: #494949;
+}
+.footer-lastDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+}
+.content-copyRight {
+  font-size: 20px;
+  color: #fff;
+}
+.content-name {
+  font-size: 20px;
+  color: #fff;
+}
+/* socail-icon style */
+.icon-design {
+  font-size: 25px;
+  margin-right: 5px;
+  margin-bottom: -5px;
+}
+.arrow-followLink {
+  margin-left: 10px;
+}
+.follow-link {
+  margin-top: 10px;
+}

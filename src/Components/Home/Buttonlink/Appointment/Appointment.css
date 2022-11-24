@@ -1,0 +1,67 @@
+.social-icon {
+  display: flex;
+  gap: 19px;
+  /* justify-content: center; */
+}
+.first-icon img {
+  width: 55px;
+  height: 50px;
+}
+
+.third-icon img {
+  width: 55px;
+  height: 50px;
+}
+.second-icon img {
+  width: 59px;
+  height: 44px;
+}
+.phone-number {
+  border: 1px solid lightgray;
+  width: 238px;
+  padding: 6px;
+  border-radius: 4px;
+}
+.full-address {
+  margin-left: -14px;
+}
+.select-time {
+  padding: 8px;
+  border: 1px solid lightgray;
+  width: 238px;
+  padding: 6px;
+  border-radius: 4px;
+  margin-right: 30px;
+  margin-bottom: 15px;
+}
+.select-time2 {
+  padding: 8px;
+  border: 1px solid lightgray;
+  width: 238px;
+  padding: 6px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+.select-time3 {
+  padding: 8px;
+  border: 1px solid lightgray;
+  width: 238px;
+  padding: 6px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  margin-right: 30px;
+}
+.gender-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.male-radio {
+  margin-right: 16px;
+}
+.check-box {
+  margin-bottom: 20px;
+}
+.content-check {
+  font-size: 20px;
+}

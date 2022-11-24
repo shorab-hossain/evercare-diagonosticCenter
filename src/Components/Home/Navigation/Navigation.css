@@ -1,0 +1,20 @@
+.content {
+  font-size: 20px;
+  color: #ffff !important;
+  font-weight: 600;
+  margin-right: 15px;
+}
+.left-navbar {
+  margin-left: 258px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 600px) {
+  .main-item {
+    display: flex;
+    justify-content: center;
+    line-height: 50px;
+    padding-bottom: 20px;
+  }
+}

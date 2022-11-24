@@ -1,0 +1,33 @@
+.main-sectionGuide {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+.full-guide {
+  line-height: 35px;
+}
+.full-guide span {
+  color: blue;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.full-guide h4 {
+  margin-bottom: 20px;
+}
+.guide-img {
+  height: 290px;
+  margin-top: 30px;
+}
+.slide-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+.slide-img img {
+  width: 100px;
+  border-radius: 50px;
+}
