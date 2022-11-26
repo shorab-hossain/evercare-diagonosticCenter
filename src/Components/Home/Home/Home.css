@@ -4,6 +4,7 @@
   align-items: center;
   width: 100%;
   height: 600px !important;
+  padding: 50px 0px;
 }
 .slider-image {
   background-image: url("../../../img/bg-imge.jpg");
@@ -32,6 +33,8 @@
   margin: 40px 0px;
   line-height: 35px;
   color: #000;
+  font-size: 20px;
+  font-weight: 600;
 }
 /* header-btn design */
 .btn-header {
@@ -90,5 +93,13 @@
   .slider-image {
     width: 100% !important;
     height: 650px;
+  }
+  .left-section {
+    text-align: center;
+  }
+  .btn-video {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
   }
 }

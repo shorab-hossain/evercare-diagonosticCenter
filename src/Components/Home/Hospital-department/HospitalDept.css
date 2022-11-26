@@ -1,0 +1,73 @@
+.main-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  padding: 20px;
+}
+.full-card {
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid;
+  box-shadow: 0px 5px 30px #888888;
+}
+.img-hospital {
+  width: 270px;
+  height: 270px;
+  border-radius: 20px;
+}
+.item-title {
+  font-size: 30px;
+  font-weight: 650;
+  padding: 7px 0px;
+  text-align: center;
+}
+.small-title {
+  font-size: 17px;
+  font-weight: 600;
+  text-align: center;
+}
+@media only screen and (max-width: 800px) {
+  .main-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  .item-title {
+    font-size: 20px;
+    font-weight: 650;
+    padding: 7px 0px;
+    text-align: center;
+  }
+  .img-hospital {
+    display: flex;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .main-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+  }
+  .item-title {
+    font-size: 25px;
+    font-weight: 650;
+    padding: 7px 0px;
+    text-align: center;
+  }
+  .img-hospital {
+    display: flex;
+    margin: 0 auto;
+  }
+  .full-card {
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid;
+    box-shadow: 0px 5px 30px #888888;
+  }
+  .img-hospital {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+  }
+}

@@ -2,11 +2,11 @@ import React from 'react';
 import { AiFillPhone, AiOutlineArrowRight } from "react-icons/ai";
 import { HiLocationMarker } from "react-icons/hi";
 import { MdEmail } from "react-icons/md";
+import { Link } from 'react-router-dom';
 import payment1 from '../../img/payment-type-1.png';
 import payment2 from '../../img/payment-type-2.png';
 import payment3 from '../../img/payment-type-3.png';
 import payment4 from '../../img/payment-type-4.png';
-import payment5 from '../../img/payment-type-5.png';
 import './Footer.css';
 
 const Footer = () => {
@@ -33,16 +33,16 @@ const Footer = () => {
                     <div  className='col-12 col-md-4 col-sm-4 col-lg-4'>
                         <h4 className='footer-secondHeading'>Useful Links</h4>
                         <div className='link-footer'>
-                            <p><a href="/">Appointment</a></p>
-                            <p><a href="/">View Departments</a></p>
-                            <p><a href="/">Our Locations</a></p>
-                            <p><a href="/">Facilities Available</a></p>
-                            <p><a href="/">About Daigonostice Center</a></p>
+                            <p><Link to="/">Appointment</Link></p>
+                            <p><Link to="/">View Departments</Link></p>
+                            <p><Link to="/">Our Locations</Link></p>
+                            <p><Link to="/">Facilities Available</Link></p>
+                            <p><Link to="/">About Daigonostice Center</Link></p>
                         </div>
-                        <button className='btn-footer btn  px-4 py-3' type="submit"><a className='btn-design text-light' href="/">
-                        <span ><a href="https://www.facebook.com/EvercareDiagnosticFeni">Follow Us</a></span>
+                        <button className='btn-footer btn  px-4 py-3' type="submit"><Link className='btn-design text-light' to="/">
+                        <span ><Link to="https://www.facebook.com/EvercareDiagnosticFeni">Follow Us</Link></span>
                         <AiOutlineArrowRight className='arrow-followLink'/>
-                        </a></button>
+                        </Link></button>
                     </div>
                     {/* third-div-design */}
                     <div  className='col-12 col-md-4 col-sm-4 col-lg-4'>
@@ -71,7 +71,6 @@ const Footer = () => {
                                     <img className='img-fluid' src={payment2} alt=""/>
                                     <img className='img-fluid' src={payment3} alt=""/>
                                     <img className='img-fluid' src={payment4} alt=""/>
-                                    <img className='img-fluid' src={payment5} alt=""/>
                                 </div>
                             </div>
                        </div>

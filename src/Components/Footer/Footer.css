@@ -78,7 +78,8 @@
   height: 35px;
 }
 .last-content {
-  background-color: #494949;
+  /* background-color: #494949; */
+  background-color: #1e2b36;
 }
 .footer-lastDiv {
   display: flex;
