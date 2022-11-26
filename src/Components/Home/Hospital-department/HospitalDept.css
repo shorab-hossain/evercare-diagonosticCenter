@@ -2,10 +2,9 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
-  padding: 20px;
+  padding: 20px 0px;
 }
 .full-card {
-  padding: 10px;
   border-radius: 20px;
   border: 1px solid;
   box-shadow: 0px 5px 30px #888888;
@@ -60,7 +59,6 @@
     margin: 0 auto;
   }
   .full-card {
-    padding: 10px;
     border-radius: 20px;
     border: 1px solid;
     box-shadow: 0px 5px 30px #888888;
